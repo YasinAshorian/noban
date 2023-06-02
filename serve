@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+// Set the document root to the project's public directory
+$docRoot = __DIR__ . '/public';
+
+// Get the host and port from command line arguments
+$host = isset($argv[1]) ? $argv[1] : 'localhost';
+$port = isset($argv[2]) ? $argv[2] : 8000;
+
+// Start the PHP built-in web server
+$command = sprintf('php -S %s:%d -t %s', $host, $port, $docRoot);
+passthru($command);
