@@ -14,5 +14,10 @@
             "email": "yasinashourian@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/view": "^10.13",
+        "twig/twig": "^3.0",
+        "illuminate/support": "^10.13",
+        "illuminate/database": "^10.13"
+    }
 }

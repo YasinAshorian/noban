@@ -1,6 +1,6 @@
 <?php
 
-use App\Controllers\Http\HomeController;
+use App\Controllers\Http\ProductController;
 class Router
 {
     private $routes = [];
